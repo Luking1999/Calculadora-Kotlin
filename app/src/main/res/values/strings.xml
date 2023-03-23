@@ -3,4 +3,6 @@
     <string name="btn1">Q botaozao</string>
     <string name="btn2">TOP SCORES</string>
     <string name="btn3">Game Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
