@@ -14,12 +14,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val homeFragment = Home()
-
-        val fragmentManager = supportFragmentManager
-        val fragmentTransaction = fragmentManager.beginTransaction()
-
-        fragmentTransaction.replace(R.id.fragment_container, homeFragment)
-
     }
 }

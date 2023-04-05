@@ -20,9 +20,11 @@ class Home : Fragment() {
 
         val navController = findNavController()
 
-        binding.button.setOnClickListener{ navController.navigate(R.id.action_home3_to_blankFragment)}
+        binding.button.setOnClickListener{
+            navController.navigate(R.id.action_home_to_blankFragment)
+        }
 
-        return inflater.inflate(R.layout.home, container, false)
+        return binding.root
     }
 
 
